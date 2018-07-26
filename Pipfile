@@ -8,6 +8,9 @@ name = "pypi"
 click = "*"
 
 [dev-packages]
+pycodestyle = "*"
+pydocstyle = "*"
+pylint = "*"
 
 [requires]
 python_version = "3.7"
