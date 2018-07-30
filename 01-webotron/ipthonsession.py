@@ -1,7 +1,9 @@
 # coding: utf-8
 import boto3
+from pprint import pprint
 session = boto3.Session(profile_name='local-machine')
 s3 = session.resource('s3')
+
 # for bucket in s3.buckets.all():
 #     print(bucket)
 #
